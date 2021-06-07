@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:alignment="left"
+    ohos:orientation="vertical">
+
+    <Text
+        ohos:id="$+id:text_helloworld"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:background_element="$graphic:background_ability_main"
+        ohos:text="$string:mainability_HelloWorld"
+        ohos:left_margin="20fp"
+        ohos:text_size="40vp"
+        />
+
+    <Button
+        ohos:top_margin="20fp"
+        ohos:text_size="40vp"
+        ohos:height="80fp"
+        ohos:left_margin="20fp"
+        ohos:right_margin="20fp"
+        ohos:width="match_parent"
+        ohos:id="$+id:bt_show"
+        ohos:text="这是一个按钮 "/>
+
+    <Image
+        ohos:top_margin="10fp"
+        ohos:height="100fp"
+        ohos:right_margin="20fp"
+        ohos:left_margin="20fp"
+        ohos:width="match_parent"
+        ohos:image_src="$ohos:color:id_color_bottom_tab_icon_dark"/>
+
+    <Clock
+        ohos:layout_alignment="horizontal_center"
+        ohos:height="100fp"
+        ohos:text_size="20fp"
+        ohos:left_margin="20fp"
+        ohos:width="match_parent"/>
+    <DatePicker
+        ohos:text_size="20fp"
+        ohos:height="100fp"
+        ohos:width="match_parent"/>
+    <Checkbox
+        ohos:id="$+id:check_show"
+        ohos:height="100fp"
+        ohos:width="match_parent"/>
+    <Switch
+        ohos:id="$+id:switch_show"
+        ohos:height="20fp"
+        ohos:width="20fp"/>
+    <TabList
+        ohos:normal_text_color="#999999"
+        ohos:selected_text_color="#000000"
+        ohos:selected_tab_indicator_color="#FFCFCF8C"
+        ohos:selected_tab_indicator_height="2vp"
+        ohos:id="$+id:tab_list"
+        ohos:top_margin="10vp"
+        ohos:tab_margin="24vp"
+        ohos:tab_length="140vp"
+        ohos:text_size="20fp"
+        ohos:height="36vp"
+        ohos:width="match_parent"
+        ohos:layout_alignment="center"
+        ohos:orientation="horizontal"
+        ohos:text_alignment="center"/>
+
+</DirectionalLayout>
